@@ -18,4 +18,32 @@ Constraint check for tile[1]:
     (Stack: 6036, Code: 28580, Data: 11992)
 Constraints checks PASSED.
 
++++++++++++++++++++++++++++++++++++++\
+
+Creating AVB-DEMO.xe
+Constraint check for tile[0]:
+  Cores available:            8,   used:          6 .  OKAY
+  Timers available:          10,   used:          6 .  OKAY
+  Chanends available:        32,   used:         22 .  OKAY
+  Memory available:       65536,   used:      57556 .  OKAY
+    (Stack: 4216, Code: 35030, Data: 18310)
+Constraints checks PASSED.
+Constraint check for tile[1]:
+  Cores available:            8,   used:          7 .  OKAY
+  Timers available:          10,   used:          7 .  OKAY
+  Chanends available:        32,   used:         24 .  OKAY
+  Memory available:       65536,   used:      49940 .  OKAY
+    (Stack: 6248, Code: 31586, Data: 12106)
+Constraints checks PASSED.
+
+
++++++++++++++++++++++++++++++++++++++++
+
 - moving some module code to /src folder to replicate BCAT board state.
+- figure out aem descriptiors and whether it can provide an interface for controlling audio.
+
+- need a proper Entity Descriptor : 4-11 entity_guid
+
+- avdecc mute control as child of input jack (CONTROL_LINEAR_UINT8 min 0(unmuted), max 255(muted), step 255, with a UNIT with multiplier 0, code UNITLESS)
+- desc_jack_input_0[], etc :  "3.5mm Stereo Jack", /* 4-67 object_name */
+    

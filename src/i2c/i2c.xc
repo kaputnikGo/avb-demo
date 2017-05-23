@@ -3,6 +3,8 @@
 // University of Illinois/NCSA Open Source License posted in
 // LICENSE.txt and at <http://github.xcore.com/>
 
+// replacing module_i2c_simple
+
 // I2C master
 #include <stdio.h>
 #include <xs1.h>

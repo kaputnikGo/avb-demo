@@ -60,7 +60,7 @@ enum button_mask {
 
 // Note that this port must be at least declared to ensure it
 // drives the mute low
-on tile[1]: out port p_mute_led_remote = PORT_MUTE_LED_REMOTE; // mute, led remote;
+on tile[1]: out port p_mute_led_remote = PORT_MUTE_LED_REMOTE;
 on tile[1]: out port p_chan_leds = PORT_LEDS;
 on tile[1]: in port p_buttons = PORT_BUTTONS;
 
@@ -151,13 +151,10 @@ enum ptp_chans {
 }
 
 //TODO
-void sayHi() {
-    printf("runtime: 13:49.\n");
-}
-
 /** The main application control task **/
 [[combinable]]
 void application_task(client interface avb_interface avb, server interface avb_1722_1_control_callbacks i_1722_1_entity) {
+    printf("application task: 15:09.\n");
     int button_val;
     int buttons_active = 1;
     unsigned buttons_timeout;
@@ -214,7 +211,7 @@ void application_task(client interface avb_interface avb, server interface avb_1
                         }
                         p_chan_leds <: ~(1 << selected_chan);
                         if (AVB_NUM_MEDIA_OUTPUTS > 2) {
-                            printf("num media out > 2\n");
+                            printf("num media out: %d\n", selected_chan);
                             int map[AVB_NUM_MEDIA_OUTPUTS/AVB_NUM_SINKS];
                             int len;
                             enum avb_sink_state_t cur_state[AVB_NUM_SINKS];
@@ -345,7 +342,7 @@ int main(void) {
                                         c_mac_tx,
                                         NUM_MAC_TX_CHANS);
 
-        on tile[0]: sayHi();
+        //on tile[0]: sayHi();
 
         on tile[0]: media_clock_server(i_media_clock_ctl,
                                    null,

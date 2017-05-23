@@ -113,6 +113,16 @@
                                             AVB_1722_1_ADP_ENTITY_CAPABILITIES_ADDRESS_ACCESS_SUPPORTED| \
                                             AVB_1722_1_ADP_ENTITY_CAPABILITIES_AEM_IDENTIFY_CONTROL_INDEX_VALID)
 
+//copy from avb_1722_1_default_conf.h -
+//  can have :
+//  AVB_1722_1_ADP_TALKER_CAPABILITIES_MIDI_SOURCE
+//  AVB_1722_1_ADP_TALKER_CAPABILITIES_CONTROL_SOURCE
+
+#if AVB_1722_1_TALKER_ENABLED
+#define AVB_1722_1_ADP_TALKER_CAPABILITIES (AVB_1722_1_ADP_TALKER_CAPABILITIES_IMPLEMENTED| \
+                                            AVB_1722_1_ADP_TALKER_CAPABILITIES_AUDIO_SOURCE| \
+                                            AVB_1722_1_ADP_TALKER_CAPABILITIES_MEDIA_CLOCK_SOURCE)
+
 #define AVB_1722_1_ADP_MODEL_ID 0x1234
 
 enum aem_control_indices {
