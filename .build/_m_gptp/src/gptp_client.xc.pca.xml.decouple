@@ -1,0 +1,210 @@
+<preCompilationAnalysis file="F:/WORKSPACE/XMOS/module_gptp/src/gptp_client.xc">
+<fDef name="send_cmd" global="false" unit="F:/WORKSPACE/XMOS/module_gptp/src/gptp_client.xc" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="delay_microseconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="delay_milliseconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="delay_seconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="hton16" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="hton32" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="hton80" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ntoh16" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ntoh32" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ntoh64" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ptp_get_current_grandmaster" global="true" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="ptp_get_propagation_delay" global="true" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="ptp_get_requested_time_info" global="true" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="ptp_get_requested_time_info_mod64" global="true" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="ptp_get_requested_time_info_mod64_use_timer" global="true" noreturn="false" doNotSpecialize="false" numParams="3"/>
+<fDef name="ptp_get_state" global="true" noreturn="false" doNotSpecialize="false" numParams="1"/>
+<fDef name="ptp_get_time_info" global="true" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="ptp_get_time_info_mod64" global="true" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="ptp_request_time_info" global="true" noreturn="false" doNotSpecialize="false" numParams="1"/>
+<fDef name="ptp_request_time_info_mod64" global="true" noreturn="false" doNotSpecialize="false" numParams="1"/>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_out_uchar" global="true" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="0" caller="send_cmd" global="false" unit="F:/WORKSPACE/XMOS/module_gptp/src/gptp_client.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="1" caller="send_cmd" global="false" unit="F:/WORKSPACE/XMOS/module_gptp/src/gptp_client.xc"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_out_uchar" global="true" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="0" caller="send_cmd" global="false" unit="F:/WORKSPACE/XMOS/module_gptp/src/gptp_client.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="1" caller="send_cmd" global="false" unit="F:/WORKSPACE/XMOS/module_gptp/src/gptp_client.xc"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_out_uchar" global="true" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="0" caller="send_cmd" global="false" unit="F:/WORKSPACE/XMOS/module_gptp/src/gptp_client.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="1" caller="send_cmd" global="false" unit="F:/WORKSPACE/XMOS/module_gptp/src/gptp_client.xc"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_outct" global="true" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="0" caller="send_cmd" global="false" unit="F:/WORKSPACE/XMOS/module_gptp/src/gptp_client.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="true" val="1"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="send_cmd" global="false" unit="F:/WORKSPACE/XMOS/module_gptp/src/gptp_client.xc" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="0" caller="ptp_request_time_info" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="true" val="0"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="get_local_tile_id" global="true" numArgs="0">
+</fCall>
+<fCall name="ptp_request_time_info" global="true" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="0" caller="ptp_get_time_info" global="true"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ptp_get_requested_time_info" global="true" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="0" caller="ptp_get_time_info" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="send_cmd" global="false" unit="F:/WORKSPACE/XMOS/module_gptp/src/gptp_client.xc" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="0" caller="ptp_request_time_info_mod64" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="true" val="1"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="get_local_tile_id" global="true" numArgs="0">
+</fCall>
+<fCall name="ptp_get_requested_time_info_mod64_use_timer" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="0" caller="ptp_get_requested_time_info_mod64" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ptp_request_time_info_mod64" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ptp_get_requested_time_info_mod64" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="send_cmd" global="false" unit="F:/WORKSPACE/XMOS/module_gptp/src/gptp_client.xc" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="0" caller="ptp_get_current_grandmaster" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="true" val="2"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="send_cmd" global="false" unit="F:/WORKSPACE/XMOS/module_gptp/src/gptp_client.xc" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="0" caller="ptp_get_state" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="true" val="3"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="send_cmd" global="false" unit="F:/WORKSPACE/XMOS/module_gptp/src/gptp_client.xc" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="0" caller="ptp_get_propagation_delay" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="true" val="4"/></value>
+    </values>
+  </arg>
+</fCall>
+</preCompilationAnalysis>

@@ -28,6 +28,9 @@
 #include "avb_srp.h"
 #include "ethernet_board_conf.h"
 
+//version matches .xn file version
+#define DEMO_VERSION 1.2.1
+
 on tile[0]: otp_ports_t otp_ports0 = OTP_PORTS_INITIALIZER;
 
 avb_ethernet_ports_t avb_ethernet_ports = {
@@ -48,31 +51,25 @@ on tile[0]: fl_spi_ports spi_ports = {
 
 // Buttons on Atterotech board
 enum button_mask {
-    STREAM_SEL=1,
-    REMOTE_SEL=2,
-    CHAN_SEL=4,
+    STREAM_SEL = 1,
+    REMOTE_SEL = 2,
+    CHAN_SEL = 4,
     BUTTON_TIMEOUT_PERIOD = 20000000
 };
 
-#if !AVB_XA_SK_AUDIO_PLL_SLICE
+
 // Note that this port must be at least declared to ensure it
 // drives the mute low
-    on tile[1]: out port p_mute_led_remote = PORT_MUTE_LED_REMOTE; // mute, led remote;
-    on tile[1]: out port p_chan_leds = PORT_LEDS;
-    on tile[1]: in port p_buttons = PORT_BUTTONS;
-#else
-    on tile[0]: out port p_leds = XS1_PORT_4F;
-#endif
+on tile[1]: out port p_mute_led_remote = PORT_MUTE_LED_REMOTE; // mute, led remote;
+on tile[1]: out port p_chan_leds = PORT_LEDS;
+on tile[1]: in port p_buttons = PORT_BUTTONS;
+
 
 //***** AVB audio ports ****
-#if I2C_COMBINE_SCL_SDA
-    on tile[AVB_I2C_TILE]: port r_i2c = PORT_I2C;
-#else
-    on tile[AVB_I2C_TILE]: struct r_i2c r_i2c = {
-            PORT_I2C_SCL,
-            PORT_I2C_SDA
-    };
-#endif
+on tile[AVB_I2C_TILE]: struct r_i2c r_i2c = {
+        PORT_I2C_SCL,
+        PORT_I2C_SDA
+};
 
 on tile[0]: out buffered port:32 p_fs[1] = { PORT_SYNC_OUT };
 
@@ -123,33 +120,22 @@ enum ptp_chans {
 
 #if AVB_DEMO_ENABLE_LISTENER
     on tile[0]: out buffered port:32 p_aud_dout[AVB_DEMO_NUM_CHANNELS / 2] = PORT_SDATA_OUT;
-#else
-  #define p_aud_dout null
-#endif
-
-#if AVB_DEMO_ENABLE_TALKER
-    on tile[0]: in buffered port:32 p_aud_din[AVB_DEMO_NUM_CHANNELS / 2] = PORT_SDATA_IN;
-#else
-    #define p_aud_din null
-#endif
-
-#if AVB_XA_SK_AUDIO_PLL_SLICE
-    on tile[0]: out port p_audio_shared = PORT_AUDIO_SHARED;
-#endif
-
-#if AVB_DEMO_ENABLE_LISTENER
     media_output_fifo_data_t ofifo_data[AVB_NUM_MEDIA_OUTPUTS];
     media_output_fifo_t ofifos[AVB_NUM_MEDIA_OUTPUTS];
 #else
+    #define p_aud_dout null
     #define ofifos null
 #endif
 
 #if AVB_DEMO_ENABLE_TALKER
+    on tile[0]: in buffered port:32 p_aud_din[AVB_DEMO_NUM_CHANNELS / 2] = PORT_SDATA_IN;
     media_input_fifo_data_t ififo_data[AVB_NUM_MEDIA_INPUTS];
     media_input_fifo_t ififos[AVB_NUM_MEDIA_INPUTS];
 #else
+    #define p_aud_din null
     #define ififos null
 #endif
+
 
 [[distributable]] void audio_hardware_setup(void) {
     #if PLL_TYPE_CS2100
@@ -157,13 +143,6 @@ enum ptp_chans {
     #elif PLL_TYPE_CS2300
         audio_clock_CS2300CP_init(r_i2c, MASTER_TO_WORDCLOCK_RATIO);
     #endif
-    #if AVB_XA_SK_AUDIO_PLL_SLICE
-        const int codec1_addr = 0x48;
-        const int codec2_addr = 0x49;
-        audio_codec_CS4270_init(p_audio_shared, 0xff, codec1_addr, r_i2c);
-        audio_codec_CS4270_init(p_audio_shared, 0xff, codec2_addr, r_i2c);
-    #endif
-
     while (1) {
         select {
             //
@@ -195,8 +174,8 @@ void application_task(client interface avb_interface avb, server interface avb_1
     p_buttons :> button_val;
 
     #if AVB_DEMO_ENABLE_TALKER
-        const int channels_per_stream = AVB_NUM_MEDIA_INPUTS/AVB_NUM_SOURCES;
-        int map[AVB_NUM_MEDIA_INPUTS/AVB_NUM_SOURCES];
+        const int channels_per_stream = AVB_NUM_MEDIA_INPUTS / AVB_NUM_SOURCES;
+        int map[AVB_NUM_MEDIA_INPUTS / AVB_NUM_SOURCES];
     #endif
     const unsigned default_sample_rate = 48000;
     unsigned char aem_identify_control_value = 0;
@@ -360,7 +339,7 @@ int main(void) {
     interface avb_1722_1_control_callbacks i_1722_1_entity;
 
     par {
-        on ETHERNET_DEFAULT_TILE: avb_ethernet_server(avb_ethernet_ports,
+        on tile[1]: avb_ethernet_server(avb_ethernet_ports,
                                         c_mac_rx,
                                         NUM_MAC_RX_CHANS,
                                         c_mac_tx,
@@ -378,7 +357,7 @@ int main(void) {
                                    c_ptp, NUM_PTP_CHANS,
                                    PTP_GRANDMASTER_CAPABLE);
 
-        on tile[AVB_I2C_TILE]: [[distribute]] audio_hardware_setup();
+        on tile[1]: [[distribute]] audio_hardware_setup();
 
         // AVB - Audio
         on tile[0]: {

@@ -1,0 +1,22 @@
+<preCompilationAnalysis file="F:/WORKSPACE/XMOS/module_avb_1722/src/avb_1722_listener_support_audio.c">
+  <fCall global="true" name="avb_1722_listener_process_packet"/>
+  <fCall global="true" name="avb_1722_listener_process_packet.nstackwords"/>
+  <fCall global="true" name="media_output_fifo_strided_push.nstackwords"/>
+  <fCall global="true" name="media_output_fifo_maintain.nstackwords"/>
+  <fCall global="true" name="media_output_fifo_set_ptp_timestamp.nstackwords"/>
+  <fCall global="true" name="avb_1722_listener_process_packet.maxcores"/>
+  <fCall global="true" name="media_output_fifo_maintain.maxcores"/>
+  <fCall global="true" name="media_output_fifo_set_ptp_timestamp.maxcores"/>
+  <fCall global="true" name="media_output_fifo_strided_push.maxcores"/>
+  <fCall global="true" name="avb_1722_listener_process_packet.maxtimers"/>
+  <fCall global="true" name="media_output_fifo_maintain.maxtimers"/>
+  <fCall global="true" name="media_output_fifo_set_ptp_timestamp.maxtimers"/>
+  <fCall global="true" name="media_output_fifo_strided_push.maxtimers"/>
+  <fCall global="true" name="avb_1722_listener_process_packet.maxchanends"/>
+  <fCall global="true" name="media_output_fifo_maintain.maxchanends"/>
+  <fCall global="true" name="media_output_fifo_set_ptp_timestamp.maxchanends"/>
+  <fCall global="true" name="media_output_fifo_strided_push.maxchanends"/>
+  <fCall global="true" name="media_output_fifo_set_ptp_timestamp"/>
+  <fCall global="true" name="media_output_fifo_maintain"/>
+  <fCall global="true" name="media_output_fifo_strided_push"/>
+</preCompilationAnalysis>

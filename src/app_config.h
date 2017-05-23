@@ -49,17 +49,11 @@
      PORT_ETH_RXCLK, PORT_ETH_ERR, PORT_ETH_RXD, PORT_ETH_RXDV, \
      PORT_ETH_TXCLK, PORT_ETH_TXEN, PORT_ETH_TXD }
 
-#if SMI_COMBINE_MDC_MDIO
-#define PORT_ETH_MDIOC
-#define ETHERNET_SMI_INIT {ETHERNET_PHY_ADDRESS, \
-                           PORT_ETH_MDIOC}
-#else
 #define PORT_ETH_MDIO     on tile[1]:XS1_PORT_1G
 #define PORT_ETH_MDC      on tile[1]:XS1_PORT_1G
 #define ETHERNET_SMI_INIT {ETHERNET_PHY_ADDRESS, \
                            PORT_ETH_MDIO,                \
                            PORT_ETH_MDC}
-#endif
 
 // CODEC control ports
 #define PORT_I2C_SCL      on tile[1]:XS1_PORT_1L

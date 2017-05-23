@@ -1,0 +1,23 @@
+<preCompilationAnalysis file="F:/WORKSPACE/XMOS/module_avb_util/src/avb_util.c">
+  <fCall global="true" name="avb_itoa"/>
+  <fCall global="true" name="avb_itoa.nstackwords"/>
+  <fCall global="true" name="memset.nstackwords"/>
+  <fCall global="true" name="avb_itoa.maxcores"/>
+  <fCall global="true" name="avb_itoa.maxtimers"/>
+  <fCall global="true" name="avb_itoa.maxchanends"/>
+  <fCall global="true" name="avb_itoa_fixed"/>
+  <fCall global="true" name="avb_itoa_fixed.nstackwords"/>
+  <fCall global="true" name="__ashldi3.nstackwords"/>
+  <fCall global="true" name="__ashrdi3.nstackwords"/>
+  <fCall global="true" name="avb_itoa_fixed.maxcores"/>
+  <fCall global="true" name="avb_itoa_fixed.maxtimers"/>
+  <fCall global="true" name="avb_itoa_fixed.maxchanends"/>
+  <fCall global="true" name="avb_atoi"/>
+  <fCall global="true" name="avb_atoi.nstackwords"/>
+  <fCall global="true" name="avb_atoi.maxcores"/>
+  <fCall global="true" name="avb_atoi.maxtimers"/>
+  <fCall global="true" name="avb_atoi.maxchanends"/>
+  <fCall global="true" name="memset"/>
+  <fCall global="true" name="__ashrdi3"/>
+  <fCall global="true" name="__ashldi3"/>
+</preCompilationAnalysis>

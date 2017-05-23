@@ -6,7 +6,7 @@ xsi:schemaLocation="http://www.xmos.com http://www.xmos.com">
   <Name>Low-cost AVB Audio Endpoint Board</Name>
   <BoardId>000401XX</BoardId>
   <!-- Board Version 1V0 -->
-  <!-- File Version 1.2.0 -->
+  <!-- File Version 1.2.1 -->
 
   <Declarations>
     <Declaration>core tile[2]</Declaration>

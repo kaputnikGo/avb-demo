@@ -1,0 +1,229 @@
+<preCompilationAnalysis file="F:/WORKSPACE/XMOS/module_avb_1722/src/avb_1722_talkerlistener.xc">
+<fDef name="avb_1722_talkerlistener" global="true" noreturn="true" doNotSpecialize="false" numParams="8"/>
+<fDef name="delay_microseconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="delay_milliseconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="delay_seconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="hton16" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="hton32" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="hton80" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ntoh16" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ntoh32" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ntoh64" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_set_thread_fast" global="true" numArgs="0">
+</fCall>
+<fCall name="avb_1722_talker_init" global="true" numArgs="4">
+  <arg num="0">
+    <passThroughArg param="4" caller="avb_1722_talkerlistener" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="2" caller="avb_1722_talkerlistener" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <passThroughArg param="7" caller="avb_1722_talkerlistener" global="true"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="avb_1722_listener_init" global="true" numArgs="4">
+  <arg num="0">
+    <passThroughArg param="1" caller="avb_1722_talkerlistener" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="3" caller="avb_1722_talkerlistener" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <passThroughArg param="6" caller="avb_1722_talkerlistener" global="true"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ptp_request_time_info_mod64" global="true" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="0" caller="avb_1722_talkerlistener" global="true"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ptp_get_requested_time_info_mod64_use_timer" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="0" caller="avb_1722_talkerlistener" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="media_output_fifo_handle_buf_ctl" global="true" numArgs="4">
+  <arg num="0">
+    <passThroughArg param="5" caller="avb_1722_talkerlistener" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ptp_get_requested_time_info_mod64_use_timer" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="0" caller="avb_1722_talkerlistener" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="avb_1722_listener_handle_packet" global="true" numArgs="4">
+  <arg num="0">
+    <passThroughArg param="1" caller="avb_1722_talkerlistener" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_timer_after" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ptp_request_time_info_mod64" global="true" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="0" caller="avb_1722_talkerlistener" global="true"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="avb_1722_talker_handle_cmd" global="true" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="4" caller="avb_1722_talkerlistener" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="avb_1722_listener_handle_cmd" global="true" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="3" caller="avb_1722_talkerlistener" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="avb_1722_talker_send_packets" global="true" numArgs="4">
+  <arg num="0">
+    <passThroughArg param="2" caller="avb_1722_talkerlistener" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+</preCompilationAnalysis>

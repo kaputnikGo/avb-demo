@@ -1,0 +1,1391 @@
+<preCompilationAnalysis file="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc">
+<fDef name="get_device_media_clock_rate" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_device_media_clock_source" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_device_media_clock_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_device_media_clock_type" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_sink_addr" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_sink_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_sink_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_sink_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_sink_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_sink_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_sink_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_sink_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_dest" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_source_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_source_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_source_presentation" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_device_media_clock_rate" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_device_media_clock_source" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_device_media_clock_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_device_media_clock_type" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_sink_addr" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_sink_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_sink_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_sink_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_sink_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_sink_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_sink_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_sink_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_source_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_source_dest" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_source_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_source_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_source_presentation" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_source_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_source_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_source_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="sfc_from_sampling_rate" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" noreturn="false" doNotSpecialize="false" numParams="1"/>
+<fDef name="_safe_memcmp" global="true" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="_safe_memmove" global="true" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="_safe_memset" global="true" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="delay_microseconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="delay_milliseconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="delay_seconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="hton16" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="hton32" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="hton80" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ntoh16" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ntoh32" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ntoh64" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="process_aem_cmd_get_counters" global="true" noreturn="false" doNotSpecialize="false" numParams="3"/>
+<fDef name="process_aem_cmd_getset_clock_source" global="true" noreturn="false" doNotSpecialize="false" numParams="4"/>
+<fDef name="process_aem_cmd_getset_control" global="true" noreturn="false" doNotSpecialize="false" numParams="4"/>
+<fDef name="process_aem_cmd_getset_sampling_rate" global="true" noreturn="false" doNotSpecialize="false" numParams="4"/>
+<fDef name="process_aem_cmd_getset_stream_info" global="true" noreturn="false" doNotSpecialize="false" numParams="4"/>
+<fDef name="process_aem_cmd_startstop_streaming" global="true" noreturn="false" doNotSpecialize="false" numParams="4"/>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="memcmp" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <passThroughArg param="2" caller="_safe_memcmp" global="true"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_array_bound" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_trap" global="true" numArgs="0">
+</fCall>
+<fCall name="memmove" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <passThroughArg param="2" caller="_safe_memmove" global="true"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_array_bound" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_trap" global="true" numArgs="0">
+</fCall>
+<fCall name="memset" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="1" caller="_safe_memset" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <passThroughArg param="2" caller="_safe_memset" global="true"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_presentation" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_presentation" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_presentation" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_source_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="2" caller="set_source_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_dest" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_source_dest" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="6"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_dest" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="2" caller="set_source_dest" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="6"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_dest" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_source_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="8"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_sink_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="8"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="2" caller="set_sink_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="8"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_addr" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_sink_addr" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="6"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_addr" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="2" caller="set_sink_addr" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="6"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_addr" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_sink_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="2" caller="set_sink_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_media_clock_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_media_clock_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_media_clock_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_media_clock_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ntoh_16" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ntoh_16" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="get_control_value" global="true" interface="avb_1722_1_control_callbacks" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_control_value" global="true" interface="avb_1722_1_control_callbacks" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ntoh_16" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ntoh_16" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="sfc_from_sampling_rate" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="hton_32" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="hton_32" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="hton_32" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="8"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="6"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="hton_16" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="hton_32" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ntoh_32" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ntoh_16" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ntoh_16" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="get_device_media_clock_rate" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="3" caller="process_aem_cmd_getset_sampling_rate" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="hton_32" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ntoh_32" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_device_media_clock_rate" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="3" caller="process_aem_cmd_getset_sampling_rate" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ntoh_16" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="get_device_media_clock_type" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="3" caller="process_aem_cmd_getset_clock_source" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="hton_16" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ntoh_16" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_device_media_clock_type" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="3" caller="process_aem_cmd_getset_clock_source" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ntoh_16" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ntoh_16" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="get_sink_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="3" caller="process_aem_cmd_startstop_streaming" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_sink_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="3" caller="process_aem_cmd_startstop_streaming" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="2"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_sink_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="3" caller="process_aem_cmd_startstop_streaming" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="1"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="get_source_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="3" caller="process_aem_cmd_startstop_streaming" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_source_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="3" caller="process_aem_cmd_startstop_streaming" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="2"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_source_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_controls.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="3" caller="process_aem_cmd_startstop_streaming" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="1"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ntoh_16" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ntoh_16" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="hton_32" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="true" val="3"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_safe_memset" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="true" val="0"/></value>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="false" val="128"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="hton_32" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="hton_32" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+</preCompilationAnalysis>

@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/project/com.xmos.cdt.toolchain.864525755/XDE_BUILD/delimiter=;
+environment/project/com.xmos.cdt.toolchain.864525755/XDE_BUILD/operation=append
+environment/project/com.xmos.cdt.toolchain.864525755/XDE_BUILD/value=true
+environment/project/com.xmos.cdt.toolchain.864525755/XMOS_MODULE_PATH/delimiter=;
+environment/project/com.xmos.cdt.toolchain.864525755/XMOS_MODULE_PATH/operation=append
+environment/project/com.xmos.cdt.toolchain.864525755/XMOS_MODULE_PATH/value=F\:\\WORKSPACE\\XMOS\\module_avb;F\:\\WORKSPACE\\XMOS\\module_avb_1722;F\:\\WORKSPACE\\XMOS\\module_avb_1722_1;F\:\\WORKSPACE\\XMOS\\module_avb_1722_maap;F\:\\WORKSPACE\\XMOS\\module_avb_audio;F\:\\WORKSPACE\\XMOS\\module_avb_flash;F\:\\WORKSPACE\\XMOS\\module_avb_media_clock;F\:\\WORKSPACE\\XMOS\\module_avb_srp;F\:\\WORKSPACE\\XMOS\\module_avb_util;F\:\\WORKSPACE\\XMOS\\module_ethernet;F\:\\WORKSPACE\\XMOS\\module_ethernet_board_support;F\:\\WORKSPACE\\XMOS\\module_ethernet_smi;F\:\\WORKSPACE\\XMOS\\module_gptp;F\:\\WORKSPACE\\XMOS\\module_i2c_simple;F\:\\WORKSPACE\\XMOS\\module_locks;F\:\\WORKSPACE\\XMOS\\module_logging;F\:\\WORKSPACE\\XMOS\\module_otp_board_info;F\:\\WORKSPACE\\XMOS\\module_random
+environment/project/com.xmos.cdt.toolchain.864525755/append=true
+environment/project/com.xmos.cdt.toolchain.864525755/appendContributed=true

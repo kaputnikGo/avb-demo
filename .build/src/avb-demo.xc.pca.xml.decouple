@@ -1,0 +1,1861 @@
+<preCompilationAnalysis file="../src/avb-demo.xc">
+<fDef name="get_device_media_clock_rate" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_device_media_clock_source" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_device_media_clock_state" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_device_media_clock_type" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_sink_addr" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_sink_channels" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_sink_format" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_sink_id" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_sink_map" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_sink_state" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_sink_sync" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_sink_vlan" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_channels" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_dest" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_source_format" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_source_id" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_map" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_source_presentation" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_state" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_sync" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_vlan" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="i2s_master" global="false" unit="../src/avb-demo.xc" noreturn="false" doNotSpecialize="true" numParams="10"/>
+<fDef name="set_device_media_clock_rate" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_device_media_clock_source" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_device_media_clock_state" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_device_media_clock_type" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_sink_addr" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_sink_channels" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_sink_format" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_sink_id" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_sink_map" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_sink_state" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_sink_sync" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_sink_vlan" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_source_channels" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_source_dest" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_source_format" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_source_map" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_source_presentation" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_source_state" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_source_sync" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_source_vlan" global="false" unit="../src/avb-demo.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="_safe_memcmp" global="true" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="_safe_memmove" global="true" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="_safe_memset" global="true" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="application_task" global="true" noreturn="true" doNotSpecialize="false" numParams="2"/>
+<fDef name="audio_hardware_setup" global="true" noreturn="true" doNotSpecialize="false" numParams="0"/>
+<fDef name="delay_microseconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="delay_milliseconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="delay_seconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="deregister_attach_request" global="true" interface="srp_interface" noreturn="false" doNotSpecialize="false" numParams="1"/>
+<fDef name="deregister_stream_request" global="true" interface="srp_interface" noreturn="false" doNotSpecialize="false" numParams="1"/>
+<fDef name="get_clock_info" global="true" interface="media_clock_if" noreturn="false" doNotSpecialize="false" numParams="1"/>
+<fDef name="get_control_value" global="true" interface="avb_1722_1_control_callbacks" noreturn="false" doNotSpecialize="false" numParams="3"/>
+<fDef name="hton16" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="hton32" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="hton80" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="i2s_master_upto_4" global="true" noreturn="false" doNotSpecialize="true" numParams="11"/>
+<fDef name="i2s_master_upto_8" global="true" noreturn="false" doNotSpecialize="true" numParams="11"/>
+<fDef name="main" global="true" noreturn="false" doNotSpecialize="false" numParams="0"/>
+<fDef name="mii_packet_get_crc" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="mii_packet_get_data_ptr" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="mii_packet_get_data_word" global="true" noreturn="false" doNotSpecialize="true" numParams="2"/>
+<fDef name="mii_packet_get_filter_result" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="mii_packet_get_forwarding" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="mii_packet_get_length" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="mii_packet_get_src_port" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="mii_packet_get_stage" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="mii_packet_get_tcount" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="mii_packet_get_timestamp" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="mii_packet_get_timestamp_id" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="mii_packet_get_user_data" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="mii_packet_set_crc" global="true" noreturn="false" doNotSpecialize="true" numParams="2"/>
+<fDef name="mii_packet_set_data" global="true" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="mii_packet_set_data_byte" global="true" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="mii_packet_set_data_short" global="true" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="mii_packet_set_data_word" global="true" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="mii_packet_set_filter_result" global="true" noreturn="false" doNotSpecialize="true" numParams="2"/>
+<fDef name="mii_packet_set_forwarding" global="true" noreturn="false" doNotSpecialize="true" numParams="2"/>
+<fDef name="mii_packet_set_length" global="true" noreturn="false" doNotSpecialize="true" numParams="2"/>
+<fDef name="mii_packet_set_src_port" global="true" noreturn="false" doNotSpecialize="true" numParams="2"/>
+<fDef name="mii_packet_set_stage" global="true" noreturn="false" doNotSpecialize="true" numParams="2"/>
+<fDef name="mii_packet_set_tcount" global="true" noreturn="false" doNotSpecialize="true" numParams="2"/>
+<fDef name="mii_packet_set_timestamp" global="true" noreturn="false" doNotSpecialize="true" numParams="2"/>
+<fDef name="mii_packet_set_timestamp_id" global="true" noreturn="false" doNotSpecialize="true" numParams="2"/>
+<fDef name="mii_packet_set_user_data" global="true" noreturn="false" doNotSpecialize="true" numParams="2"/>
+<fDef name="ntoh16" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ntoh32" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ntoh64" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="register_attach_request" global="true" interface="srp_interface" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="register_clock" global="true" interface="media_clock_if" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="register_stream_request" global="true" interface="srp_interface" noreturn="false" doNotSpecialize="false" numParams="1"/>
+<fDef name="sayHi" global="true" noreturn="false" doNotSpecialize="false" numParams="0"/>
+<fDef name="set_buf_fifo" global="true" interface="media_clock_if" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="set_clock_info" global="true" interface="media_clock_if" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="set_control_value" global="true" interface="avb_1722_1_control_callbacks" noreturn="false" doNotSpecialize="false" numParams="3"/>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="memcmp" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <passThroughArg param="2" caller="_safe_memcmp" global="true"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_array_bound" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_trap" global="true" numArgs="0">
+</fCall>
+<fCall name="memmove" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <passThroughArg param="2" caller="_safe_memmove" global="true"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_array_bound" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_trap" global="true" numArgs="0">
+</fCall>
+<fCall name="memset" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="1" caller="_safe_memset" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <passThroughArg param="2" caller="_safe_memset" global="true"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="media_input_fifo_enable_req_state" global="true" numArgs="0">
+</fCall>
+<fCall name="__builtin_bitrev" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="media_input_fifo_push_sample" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="media_input_fifo_flush" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_bitrev" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="media_input_fifo_update_enable_ind_state" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="false" val="4294967295"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="media_input_fifo_enable_req_state" global="true" numArgs="0">
+</fCall>
+<fCall name="__builtin_bitrev" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="media_input_fifo_push_sample" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="media_input_fifo_flush" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="media_output_fifo_pull_sample" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_bitrev" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="media_input_fifo_update_enable_ind_state" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="false" val="4294967295"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="media_ctl_register" global="true" numArgs="6">
+  <arg num="0">
+    <passThroughArg param="8" caller="i2s_master" global="false" unit="../src/avb-demo.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="4">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="5">
+    <passThroughArg param="9" caller="i2s_master" global="false" unit="../src/avb-demo.xc"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="i2s_master_configure_ports" global="true" numArgs="5">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="4">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="i2s_master_upto_4" global="true" numArgs="11">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="4">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="5">
+    <passThroughArg param="4" caller="i2s_master" global="false" unit="../src/avb-demo.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="6">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="7">
+    <passThroughArg param="2" caller="i2s_master" global="false" unit="../src/avb-demo.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="8">
+    <passThroughArg param="5" caller="i2s_master" global="false" unit="../src/avb-demo.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="9">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="10">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="media_output_fifo_to_xc_channel_split_lr" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <passThroughArg param="4" caller="i2s_master" global="false" unit="../src/avb-demo.xc"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="i2s_master_upto_8" global="true" numArgs="11" impId="0">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="4">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="5">
+    <passThroughArg param="4" caller="i2s_master" global="false" unit="../src/avb-demo.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="6">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="7">
+    <passThroughArg param="2" caller="i2s_master" global="false" unit="../src/avb-demo.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="8">
+    <passThroughArg param="5" caller="i2s_master" global="false" unit="../src/avb-demo.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="9">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="10">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_format" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_format" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_format" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_channels" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_channels" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_channels" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_sync" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_sync" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_sync" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_presentation" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_presentation" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_presentation" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_vlan" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_vlan" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_vlan" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_state" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_state" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_state" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_map" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_source_map" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_map" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="2" caller="set_source_map" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_map" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_dest" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_source_dest" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="6"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_dest" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="2" caller="set_source_dest" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="6"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_dest" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_id" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_source_id" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="8"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_id" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_sink_id" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="8"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_id" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="2" caller="set_sink_id" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="8"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_id" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_format" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_format" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_format" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_channels" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_channels" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_channels" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_sync" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_sync" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_sync" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_vlan" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_vlan" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_vlan" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_addr" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_sink_addr" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="6"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_addr" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="2" caller="set_sink_addr" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="6"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_addr" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_state" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_state" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_state" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_map" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_sink_map" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_map" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="2" caller="set_sink_map" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_map" global="false" unit="../src/avb-demo.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_media_clock_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_media_clock_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_media_clock_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_media_clock_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="audio_clock_CS2300CP_init" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="true" val="512"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="printf" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_device_media_clock_type" global="false" unit="../src/avb-demo.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="0" caller="application_task" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="true" val="0"/></value>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="0"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_device_media_clock_rate" global="false" unit="../src/avb-demo.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="0" caller="application_task" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="true" val="0"/></value>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="false" val="48000"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_device_media_clock_state" global="false" unit="../src/avb-demo.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="0" caller="application_task" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="true" val="0"/></value>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="1"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_source_channels" global="false" unit="../src/avb-demo.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="0" caller="application_task" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="8"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_source_map" global="false" unit="../src/avb-demo.xc" numArgs="4">
+  <arg num="0">
+    <passThroughArg param="0" caller="application_task" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="intval"><intval isSigned="true" val="8"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_source_format" global="false" unit="../src/avb-demo.xc" numArgs="4">
+  <arg num="0">
+    <passThroughArg param="0" caller="application_task" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="0"/></value>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="intval"><intval isSigned="false" val="48000"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_source_sync" global="false" unit="../src/avb-demo.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="0" caller="application_task" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="0"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_sink_format" global="false" unit="../src/avb-demo.xc" numArgs="4">
+  <arg num="0">
+    <passThroughArg param="0" caller="application_task" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="true" val="0"/></value>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="0"/></value>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="intval"><intval isSigned="false" val="48000"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_pins_ne" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="printf" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="printf" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="get_sink_state" global="false" unit="../src/avb-demo.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="0" caller="application_task" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_sink_state" global="false" unit="../src/avb-demo.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="0" caller="application_task" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="0"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="get_sink_map" global="false" unit="../src/avb-demo.xc" numArgs="4">
+  <arg num="0">
+    <passThroughArg param="0" caller="application_task" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_sink_map" global="false" unit="../src/avb-demo.xc" numArgs="4">
+  <arg num="0">
+    <passThroughArg param="0" caller="application_task" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="set_sink_state" global="false" unit="../src/avb-demo.xc" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="0" caller="application_task" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="1"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_timer_after" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="printf" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="printf" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="avb_ethernet_server" global="true" numArgs="5" impId="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="4"/></value>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="4">
+    <values>
+      <value type="intval"><intval isSigned="true" val="5"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="sayHi" global="true" numArgs="0" impId="4">
+</fCall>
+<fCall name="media_clock_server" global="true" numArgs="10" impId="5">
+  <arg num="0">
+    <values>
+      <value type="interface"><interfaceInfo index="0" type="chan" isYielding="true"/></value>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="null"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="intval"><intval isSigned="true" val="1"/></value>
+    </values>
+  </arg>
+  <arg num="4">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="5">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="6">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="7">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="8">
+    <values>
+      <value type="intval"><intval isSigned="true" val="3"/></value>
+    </values>
+  </arg>
+  <arg num="9">
+    <values>
+      <value type="intval"><intval isSigned="true" val="0"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="audio_hardware_setup" global="true" numArgs="0" impId="6">
+</fCall>
+<fCall name="init_media_input_fifos" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="8"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="init_media_output_fifos" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="8"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="i2s_master" global="false" unit="../src/avb-demo.xc" numArgs="10">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="8"/></value>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="4">
+    <values>
+      <value type="intval"><intval isSigned="true" val="8"/></value>
+    </values>
+  </arg>
+  <arg num="5">
+    <values>
+      <value type="intval"><intval isSigned="true" val="512"/></value>
+    </values>
+  </arg>
+  <arg num="6">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="7">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="8">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="9">
+    <values>
+      <value type="intval"><intval isSigned="true" val="0"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="avb_1722_talker" global="true" numArgs="4" impId="7">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="intval"><intval isSigned="true" val="1"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="avb_1722_listener" global="true" numArgs="5" impId="8">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="null"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="4">
+    <values>
+      <value type="intval"><intval isSigned="true" val="1"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="avb_manager" global="true" numArgs="9" impId="1">
+  <arg num="0">
+    <values>
+      <value type="interface"><interfaceInfo index="0" type="comb" func="avb_manager" global="true" impUnit="../src/avb-demo.xc" impId="1" param="0"/><interfaceInfo index="1" type="chan" isYielding="false"/><interfaceInfo index="2" type="chan" isYielding="false"/></value>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="true" val="3"/></value>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="interface"><interfaceInfo index="0" type="comb" func="avb_srp_task" global="true" impUnit="../src/avb-demo.xc" impId="2" param="1"/></value>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="4">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="5">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="6">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="7">
+    <values>
+      <value type="interface"><interfaceInfo index="0" type="chan" isYielding="true"/></value>
+    </values>
+  </arg>
+  <arg num="8">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="avb_srp_task" global="true" numArgs="4" impId="2">
+  <arg num="0">
+    <values>
+      <value type="interface"><interfaceInfo index="0" type="comb" func="avb_manager" global="true" impUnit="../src/avb-demo.xc" impId="1" param="0"/></value>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="interface"><interfaceInfo index="0" type="comb" func="avb_srp_task" global="true" impUnit="../src/avb-demo.xc" impId="2" param="1"/></value>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="application_task" global="true" numArgs="2" impId="9">
+  <arg num="0">
+    <values>
+      <value type="interface"><interfaceInfo index="2" type="chan" isYielding="false"/></value>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="interface"><interfaceInfo index="0" type="chan" isYielding="false"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="avb_1722_1_maap_task" global="true" numArgs="7" impId="10">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="interface"><interfaceInfo index="1" type="chan" isYielding="false"/></value>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="interface"><interfaceInfo index="0" type="chan" isYielding="false"/></value>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="null"/>
+    </values>
+  </arg>
+  <arg num="4">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="5">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="6">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+</preCompilationAnalysis>

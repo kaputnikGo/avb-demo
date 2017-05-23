@@ -1,0 +1,19 @@
+<preCompilationAnalysis file="F:/WORKSPACE/XMOS/module_avb_1722/src/avb_1722_router_table_hash.c">
+  <fCall global="true" name="init_avb_1722_router_table_hash"/>
+  <fCall global="true" name="init_avb_1722_router_table_hash.nstackwords"/>
+  <fCall global="true" name="init_avb_1722_router_table_hash.maxcores"/>
+  <fCall global="true" name="init_avb_1722_router_table_hash.maxtimers"/>
+  <fCall global="true" name="init_avb_1722_router_table_hash.maxchanends"/>
+  <fCall global="true" name="avb_1722_router_table_lookup_hash"/>
+  <fCall global="true" name="avb_1722_router_table_lookup_hash.nstackwords"/>
+  <fCall global="true" name="avb_1722_router_table_lookup_hash.maxcores"/>
+  <fCall global="true" name="avb_1722_router_table_lookup_hash.maxtimers"/>
+  <fCall global="true" name="avb_1722_router_table_lookup_hash.maxchanends"/>
+  <fCall global="true" name="avb_1722_router_table_add_entry_hash"/>
+  <fCall global="true" name="avb_1722_router_table_add_entry_hash.nstackwords"/>
+  <fCall global="true" name="__memcpy_4.nstackwords"/>
+  <fCall global="true" name="avb_1722_router_table_add_entry_hash.maxcores"/>
+  <fCall global="true" name="avb_1722_router_table_add_entry_hash.maxtimers"/>
+  <fCall global="true" name="avb_1722_router_table_add_entry_hash.maxchanends"/>
+  <fCall global="true" name="__memcpy_4"/>
+</preCompilationAnalysis>

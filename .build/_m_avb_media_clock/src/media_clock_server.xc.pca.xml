@@ -1,0 +1,451 @@
+<preCompilationAnalysis file="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc">
+<fDef name="do_media_clock_output" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="init_buffers" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc" noreturn="false" doNotSpecialize="false" numParams="0"/>
+<fDef name="init_media_clock" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc" noreturn="false" doNotSpecialize="false" numParams="3"/>
+<fDef name="manage_buffer" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc" noreturn="false" doNotSpecialize="false" numParams="5"/>
+<fDef name="update_media_clock_divide" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc" noreturn="false" doNotSpecialize="false" numParams="1"/>
+<fDef name="update_media_clocks" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="clk_ctl_set_rate" global="true" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="delay_microseconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="delay_milliseconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="delay_seconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="get_buf_info" global="true" noreturn="false" doNotSpecialize="false" numParams="1"/>
+<fDef name="hton16" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="hton32" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="hton80" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="inform_media_clocks_of_lock" global="true" noreturn="false" doNotSpecialize="false" numParams="1"/>
+<fDef name="media_clock_server" global="true" noreturn="true" doNotSpecialize="false" numParams="10"/>
+<fDef name="ntoh16" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ntoh32" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ntoh64" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="update_stream_derived_clocks" global="true" noreturn="false" doNotSpecialize="false" numParams="6"/>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="update_media_clock_stream_info" global="true" numArgs="6">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="1" caller="update_stream_derived_clocks" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <passThroughArg param="2" caller="update_stream_derived_clocks" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="3">
+    <passThroughArg param="3" caller="update_stream_derived_clocks" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="4">
+    <passThroughArg param="4" caller="update_stream_derived_clocks" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="5">
+    <passThroughArg param="5" caller="update_stream_derived_clocks" global="true"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="inform_media_clock_of_lock" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_inct" global="true" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="2" caller="manage_buffer" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="get_local_tile_id" global="true" numArgs="0">
+</fCall>
+<fCall name="ptp_get_local_time_info_mod64" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="local_timestamp_to_ptp_mod32" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="update_stream_derived_clocks" global="true" numArgs="6">
+  <arg num="0">
+    <passThroughArg param="3" caller="manage_buffer" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="4">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="5">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_inct" global="true" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="2" caller="manage_buffer" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_inct" global="true" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="2" caller="manage_buffer" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="inform_media_clocks_of_lock" global="true" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="3" caller="manage_buffer" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_inct" global="true" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="2" caller="manage_buffer" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_inct" global="true" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="2" caller="manage_buffer" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_inct" global="true" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="2" caller="manage_buffer" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="update_media_clock_divide" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="update_media_clock" global="true" numArgs="5">
+  <arg num="0">
+    <passThroughArg param="0" caller="update_media_clocks" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="4">
+    <values>
+      <value type="intval"><intval isSigned="true" val="2097152"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="update_media_clock_divide" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ptp_server_init" global="true" numArgs="5">
+  <arg num="0">
+    <passThroughArg param="5" caller="media_clock_server" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="6" caller="media_clock_server" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <passThroughArg param="9" caller="media_clock_server" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="4">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="init_buffers" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc" numArgs="0">
+</fCall>
+<fCall name="init_media_clock" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_timer_after" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="do_media_clock_output" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ptp_recv_and_process_packet" global="true" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="5" caller="media_clock_server" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="6" caller="media_clock_server" global="true"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ptp_process_client_request" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_timer_after" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="update_media_clocks" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="media_clock_server" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="ptp_periodic" global="true" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="6" caller="media_clock_server" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_in_uchar_byref" global="true" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_in_uchar" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_in_uchar" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_inct" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="get_buf_info" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="manage_buffer" global="false" unit="F:/WORKSPACE/XMOS/module_avb_media_clock/src/media_clock_server.xc" numArgs="5">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="1" caller="media_clock_server" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="4">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_inct" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="init_media_clock_recovery" global="true" numArgs="4">
+  <arg num="0">
+    <passThroughArg param="1" caller="media_clock_server" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+</preCompilationAnalysis>

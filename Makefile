@@ -9,14 +9,14 @@ TARGET = XR-AVB-LC-BRD
 APP_NAME = AVB-DEMO
 
 # The USED_MODULES variable lists other module used by the application.
-USED_MODULES = module_avb module_avb_1722 module_avb_1722_1 module_avb_1722_maap module_avb_audio module_avb_flash module_avb_media_clock module_avb_srp module_avb_util module_ethernet module_ethernet_board_support module_ethernet_smi module_gptp module_i2c_simple module_locks module_logging module_otp_board_info module_random
+USED_MODULES = module_avb module_avb_1722 module_avb_1722_1 module_avb_1722_maap module_avb_audio module_avb_flash module_avb_media_clock module_avb_srp module_avb_util module_ethernet module_ethernet_smi module_gptp module_locks module_logging module_otp_board_info module_random
 
 # The flags passed to xcc when building the application
 # You can also set the following to override flags for a particular language:
 # XCC_XC_FLAGS, XCC_C_FLAGS, XCC_ASM_FLAGS, XCC_CPP_FLAGS
 # If the variable XCC_MAP_FLAGS is set it overrides the flags passed to
 # xcc for the final link (mapping) stage.
-XCC_FLAGS = -O2 -g
+XCC_FLAGS = -O2 -g -report
 
 # The XCORE_ARM_PROJECT variable, if set to 1, configures this
 # project to create both xCORE and ARM binaries.

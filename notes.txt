@@ -1,0 +1,21 @@
+AVB_LC_DEMO board build notes::
+
+version 1.2.1
+
+Creating AVB-DEMO.xe
+Constraint check for tile[0]:
+  Cores available:            8,   used:          7 .  OKAY
+  Timers available:          10,   used:          7 .  OKAY
+  Chanends available:        32,   used:         22 .  OKAY
+  Memory available:       65536,   used:      60268 .  OKAY
+    (Stack: 5468, Code: 36570, Data: 18230)
+Constraints checks PASSED.
+Constraint check for tile[1]:
+  Cores available:            8,   used:          7 .  OKAY
+  Timers available:          10,   used:          7 .  OKAY
+  Chanends available:        32,   used:         24 .  OKAY
+  Memory available:       65536,   used:      46608 .  OKAY
+    (Stack: 6036, Code: 28580, Data: 11992)
+Constraints checks PASSED.
+
+- moving some module code to /src folder to replicate BCAT board state.

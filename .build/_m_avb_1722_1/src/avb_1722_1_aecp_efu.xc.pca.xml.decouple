@@ -1,0 +1,1131 @@
+<preCompilationAnalysis file="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc">
+<fDef name="erase_sectors" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="fl_get_next_boot_image" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="fl_get_sector_address" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" noreturn="false" doNotSpecialize="false" numParams="1"/>
+<fDef name="fl_get_sector_at_or_after" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" noreturn="false" doNotSpecialize="false" numParams="1"/>
+<fDef name="get_device_media_clock_rate" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_device_media_clock_source" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_device_media_clock_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_device_media_clock_type" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_factory_image" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="get_sink_addr" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_sink_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_sink_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_sink_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_sink_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_sink_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_sink_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_sink_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_dest" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_source_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_source_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="get_source_presentation" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="get_source_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_device_media_clock_rate" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_device_media_clock_source" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_device_media_clock_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_device_media_clock_type" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_sink_addr" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_sink_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_sink_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_sink_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_sink_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_sink_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_sink_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_sink_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_source_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_source_dest" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_source_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_source_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="4"/>
+<fDef name="set_source_presentation" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_source_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_source_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="set_source_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="sortbits" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" noreturn="false" doNotSpecialize="false" numParams="1"/>
+<fDef name="write_and_update_address" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" noreturn="false" doNotSpecialize="false" numParams="2"/>
+<fDef name="_safe_memcmp" global="true" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="_safe_memmove" global="true" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="_safe_memset" global="true" noreturn="false" doNotSpecialize="true" numParams="3"/>
+<fDef name="avb_erase_upgrade_image" global="true" noreturn="false" doNotSpecialize="false" numParams="1"/>
+<fDef name="avb_write_upgrade_image_page" global="true" noreturn="false" doNotSpecialize="false" numParams="3"/>
+<fDef name="delay_microseconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="delay_milliseconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="delay_seconds" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="hton16" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="hton32" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="hton80" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ntoh16" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ntoh32" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fDef name="ntoh64" global="true" noreturn="false" doNotSpecialize="true" numParams="1"/>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="delay_ticks_longlong" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="memcmp" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <passThroughArg param="2" caller="_safe_memcmp" global="true"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_array_bound" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_trap" global="true" numArgs="0">
+</fCall>
+<fCall name="memmove" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <passThroughArg param="2" caller="_safe_memmove" global="true"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_array_bound" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_trap" global="true" numArgs="0">
+</fCall>
+<fCall name="memset" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="1" caller="_safe_memset" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <passThroughArg param="2" caller="_safe_memset" global="true"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_presentation" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_presentation" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_presentation" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_source_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="2" caller="set_source_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_dest" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_source_dest" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="6"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_dest" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="2" caller="set_source_dest" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="6"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_source_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_source_dest" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_source_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_source_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_source_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="8"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_sink_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="8"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="2" caller="set_sink_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="8"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_id" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_format" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_channels" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_sync" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_vlan" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_addr" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_sink_addr" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="6"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_addr" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="2" caller="set_sink_addr" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="6"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_addr" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_state" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="get_sink_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="2" caller="get_sink_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_sink_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_memcpy_xc" global="true" numArgs="3">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <passThroughArg param="2" caller="set_sink_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_sink_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="1" caller="set_sink_map" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" interface="avb_interface"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_media_clock_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_media_clock_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_media_clock_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_get_media_clock_info" global="true" interface="avb_interface" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="_set_media_clock_info" global="true" interface="avb_interface" numArgs="2">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_byterev" global="true" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="__builtin_bitrev" global="true" numArgs="1">
+  <arg num="0">
+    <passThroughArg param="0" caller="sortbits" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc"/>
+    <values>
+    </values>
+  </arg>
+</fCall>
+<fCall name="fl_get_sector_address" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="fl_get_sector_at_or_after" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="fl_get_sector_address" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="spi_flash_read" global="true" numArgs="4">
+  <arg num="0">
+    <passThroughArg param="0" caller="fl_get_next_boot_image" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="intval"><intval isSigned="false" val="28"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="sortbits" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="sortbits" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="sortbits" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="spi_flash_read" global="true" numArgs="4">
+  <arg num="0">
+    <passThroughArg param="0" caller="get_factory_image" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="true" val="0"/></value>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="intval"><intval isSigned="true" val="4"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="sortbits" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="spi_flash_read" global="true" numArgs="4">
+  <arg num="0">
+    <passThroughArg param="0" caller="get_factory_image" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="intval"><intval isSigned="false" val="36"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="sortbits" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="sortbits" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="sortbits" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="spi_flash_write_small" global="true" numArgs="4">
+  <arg num="0">
+    <passThroughArg param="0" caller="write_and_update_address" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="3">
+    <values>
+      <value type="intval"><intval isSigned="true" val="256"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="spi_flash_erase" global="true" numArgs="3">
+  <arg num="0">
+    <passThroughArg param="0" caller="erase_sectors" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+  <arg num="2">
+    <values>
+      <value type="intval"><intval isSigned="true" val="65536"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="get_factory_image" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="0" caller="avb_erase_upgrade_image" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="fl_get_next_boot_image" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="0" caller="avb_erase_upgrade_image" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="fl_get_sector_at_or_after" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="fl_get_sector_address" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="1">
+  <arg num="0">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="erase_sectors" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="0" caller="avb_erase_upgrade_image" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="intval"><intval isSigned="true" val="131072"/></value>
+    </values>
+  </arg>
+</fCall>
+<fCall name="erase_sectors" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="0" caller="avb_erase_upgrade_image" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+<fCall name="write_and_update_address" global="false" unit="F:/WORKSPACE/XMOS/module_avb_1722_1/src/avb_1722_1_aecp_efu.xc" numArgs="2">
+  <arg num="0">
+    <passThroughArg param="0" caller="avb_write_upgrade_image_page" global="true"/>
+    <values>
+    </values>
+  </arg>
+  <arg num="1">
+    <values>
+      <value type="unknown"/>
+    </values>
+  </arg>
+</fCall>
+</preCompilationAnalysis>
