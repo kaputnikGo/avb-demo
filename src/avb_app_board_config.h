@@ -21,4 +21,7 @@
 #define AVB_GPIO_TILE           1
 
 /** Add sine wave synthesis from channels ``I2S_SYNTH_FROM*2`` upwards in the I2S component */
+// AVB_LC demo : 8 digital inputs but only 2 of them are connected to an ADC on board. therefore,
+// get I2S to ignore the input on every stereo pair but the first (0-1, ch 1&2),
+// and add synthesized sine waves to these other 6 inputs (2-7, ch 3-8)
 #define I2S_SYNTH_FROM 1

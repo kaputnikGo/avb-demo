@@ -79,7 +79,7 @@ unsigned char desc_audio_unit_0[] =
 {
   U16(AEM_AUDIO_UNIT_TYPE),                   /* 0-1 descriptor_type */
   U16(0),                                     /* 2-3 descriptor_id */
-  "Audio Unit 0",                          /* 4-67 object_name */
+  "Audio Unit 0",                             /* 4-67 object_name */
   U16(AEM_NO_STRING),                         /* 67-69 localized_description */
   U16(0),                                     /* 70-71 clock_domain_index */
   U16(AVB_NUM_SINKS),                         /* number_of_stream_input_ports */
@@ -94,8 +94,8 @@ unsigned char desc_audio_unit_0[] =
   U16(0),                                     /* base_internal_input_port */
   U16(0),                                     /* number_of_internal_output_ports */
   U16(0),                                     /* base_internal_output_port */
-  U16(0),                                     /* number_of_controls */
-  U16(0),                                     /* base_control */
+  U16(1),                                     /* number_of_controls */
+  U16(1),                                     /* base_control */
   U16(0),                                     /* number_of_signal_selectors */
   U16(0),                                     /* base_signal_selector */
   U16(0),                                     /* number_of_mixers */
@@ -352,6 +352,35 @@ unsigned char desc_control_identify[] =
   U16(AEM_NO_STRING)                            /* string[0] */
 };
 
+/* add mute and volume controls here */
+
+unsigned char desc_control_mute_0[] =
+{
+  U16(AEM_CONTROL_TYPE),                      /* 0-1 descriptor_type */
+  U16(DESCRIPTOR_INDEX_CONTROL_MUTE_0),       /* 2-3 descriptor_id */
+  "Mute channel 0",                           /* object_name */
+  U16(AEM_NO_STRING),                         /* localized_description */
+  U32(0),                                     /* block_latency */
+  U32(0),                                     /* control_latency */
+  U16(0),                                     /* control_domain */
+  U16(AEM_CONTROL_LINEAR_UINT8),              /* control_value_type */
+  U64(AEM_CONTROL_TYPE_MUTE),                 /* control_type */
+  U32(0),                                     /* reset_time */
+  U16(104),                                   /* values_offset */
+  U16(1),                                     /* number_of_values */
+  U16(AEM_AUDIO_UNIT_TYPE),                   /* signal_type */
+  U16(0),                                     /* signal_index */
+  U16(0),                                     /* signal_output */
+  /* 104-> value_details */
+  0,                                          /* minimum_value[0] */
+  255,                                        /* maximum_value[0] */
+  255,                                        /* step[0] */
+  0,                                          /* default_value[0] */
+  0,                                          /* current_value[0] */
+  U16(AEM_CONTROL_UNITS_UNITLESS),            /* unit[0] */
+  U16(AEM_NO_STRING)                          /* string[0] */
+};
+
 
 /* Stream Descriptors */
 
@@ -595,6 +624,7 @@ unsigned int aem_descriptor_list[] =
   AEM_AUDIO_MAP_TYPE, 2, sizeof(desc_audio_map_0), (unsigned)desc_audio_map_0, sizeof(desc_audio_map_1), (unsigned)desc_audio_map_1,
 #endif
   AEM_CONTROL_TYPE, 1, sizeof(desc_control_identify), (unsigned)desc_control_identify,
+  AEM_CONTROL_TYPE, 1, sizeof(desc_control_mute_0), (unsigned)desc_control_mute_0,
   AEM_CLOCK_DOMAIN_TYPE, 1, sizeof(desc_clock_domain_0), (unsigned)desc_clock_domain_0
 };
 

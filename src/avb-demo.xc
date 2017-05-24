@@ -31,6 +31,9 @@
 //version matches .xn file version
 #define DEMO_VERSION 1.2.1
 
+// prior to enabling a user switch:
+#define SAMPLE_RATE 48000
+
 on tile[0]: otp_ports_t otp_ports0 = OTP_PORTS_INITIALIZER;
 
 avb_ethernet_ports_t avb_ethernet_ports = {
@@ -118,8 +121,14 @@ enum ptp_chans {
     NUM_PTP_CHANS
 };
 
+// mod for single ADC_DATA I/O from ADC :: [AVB_DEMO_NUM_CHANNELS / 2]
+// bypass use of expansion header as J12 shunt will remain installed
+// this means only have SDATA_IN0 and SDATA_OUT0 that are connected to ADC/DAC via J12
+
+// module_avb_audio audio_i2s.h interleaves input channels for the fifo
+// 1 fifo per input
 #if AVB_DEMO_ENABLE_LISTENER
-    on tile[0]: out buffered port:32 p_aud_dout[AVB_DEMO_NUM_CHANNELS / 2] = PORT_SDATA_OUT;
+    on tile[0]: out buffered port:32 p_aud_dout[1] = { PORT_SDATA_OUT0 };//PORT_SDATA_OUT;
     media_output_fifo_data_t ofifo_data[AVB_NUM_MEDIA_OUTPUTS];
     media_output_fifo_t ofifos[AVB_NUM_MEDIA_OUTPUTS];
 #else
@@ -128,7 +137,7 @@ enum ptp_chans {
 #endif
 
 #if AVB_DEMO_ENABLE_TALKER
-    on tile[0]: in buffered port:32 p_aud_din[AVB_DEMO_NUM_CHANNELS / 2] = PORT_SDATA_IN;
+    on tile[0]: in buffered port:32 p_aud_din[1] = { PORT_SDATA_IN0 };//PORT_SDATA_IN;
     media_input_fifo_data_t ififo_data[AVB_NUM_MEDIA_INPUTS];
     media_input_fifo_t ififos[AVB_NUM_MEDIA_INPUTS];
 #else
@@ -154,7 +163,7 @@ enum ptp_chans {
 /** The main application control task **/
 [[combinable]]
 void application_task(client interface avb_interface avb, server interface avb_1722_1_control_callbacks i_1722_1_entity) {
-    printf("application task: 15:09.\n");
+    printf("application task: 15:07.\n");
     int button_val;
     int buttons_active = 1;
     unsigned buttons_timeout;
@@ -174,12 +183,12 @@ void application_task(client interface avb_interface avb, server interface avb_1
         const int channels_per_stream = AVB_NUM_MEDIA_INPUTS / AVB_NUM_SOURCES;
         int map[AVB_NUM_MEDIA_INPUTS / AVB_NUM_SOURCES];
     #endif
-    const unsigned default_sample_rate = 48000;
+
     unsigned char aem_identify_control_value = 0;
 
     // Initialize the media clock
     avb.set_device_media_clock_type(0, DEVICE_MEDIA_CLOCK_INPUT_STREAM_DERIVED);
-    avb.set_device_media_clock_rate(0, default_sample_rate);
+    avb.set_device_media_clock_rate(0, SAMPLE_RATE);
     avb.set_device_media_clock_state(0, DEVICE_MEDIA_CLOCK_STATE_ENABLED);
 
     #if AVB_DEMO_ENABLE_TALKER
@@ -190,12 +199,12 @@ void application_task(client interface avb_interface avb, server interface avb_1
                 map[i] = j ? j * (channels_per_stream) + i  : j + i;
             }
             avb.set_source_map(j, map, channels_per_stream);
-            avb.set_source_format(j, AVB_SOURCE_FORMAT_MBLA_24BIT, default_sample_rate);
+            avb.set_source_format(j, AVB_SOURCE_FORMAT_MBLA_24BIT, SAMPLE_RATE);
             avb.set_source_sync(j, 0); // use the media_clock defined above
         }
     #endif
 
-    avb.set_sink_format(0, AVB_SOURCE_FORMAT_MBLA_24BIT, default_sample_rate);
+    avb.set_sink_format(0, AVB_SOURCE_FORMAT_MBLA_24BIT, SAMPLE_RATE);
 
     while (1) {
         select {
@@ -272,6 +281,12 @@ void application_task(client interface avb_interface avb, server interface avb_1
                         values_length = 1;
                         return_status = AECP_AEM_STATUS_SUCCESS;
                         break;
+                    //TODO
+                    case DESCRIPTOR_INDEX_CONTROL_MUTE_0:
+                        values[0] = aem_identify_control_value;
+                        values_length = 1;
+                        return_status = AECP_AEM_STATUS_SUCCESS;
+                        break;
                 }
                 break;
             }
@@ -287,6 +302,21 @@ void application_task(client interface avb_interface avb, server interface avb_1
                         if (values_length == 1) {
                             aem_identify_control_value = values[0];
                             p_mute_led_remote <: (~0) & ~((int)aem_identify_control_value<<1);
+                            if (aem_identify_control_value) {
+                                debug_printf("IDENTIFY Ping\n");
+                            }
+                            return_status = AECP_AEM_STATUS_SUCCESS;
+                        }
+                        else {
+                            return_status = AECP_AEM_STATUS_BAD_ARGUMENTS;
+                        }
+                        break;
+                    }
+
+                    case DESCRIPTOR_INDEX_CONTROL_MUTE_0: {
+                        if (values_length == 1) {
+                            aem_identify_control_value = values[0];
+                            // if value is 255 then mute audio channel 0
                             if (aem_identify_control_value) {
                                 debug_printf("IDENTIFY Ping\n");
                             }

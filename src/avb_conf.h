@@ -40,7 +40,8 @@
   * tasks running the  avb_1722_talker() function). */
 #define AVB_NUM_TALKER_UNITS 1
 /** The total number of media inputs (typically number of I2S input channels). */
-#define AVB_NUM_MEDIA_INPUTS AVB_DEMO_NUM_CHANNELS
+// AVB_DEMO_NUM_CHANNELS
+#define AVB_NUM_MEDIA_INPUTS 2
 /** Enable the 1722.1 Talker functionality */
 #define AVB_1722_1_TALKER_ENABLED 1
 
@@ -62,7 +63,8 @@
   * (typically the number of tasks running the avb_1722_listener() function) */
 #define AVB_NUM_LISTENER_UNITS 1
 /** The total number of media outputs (typically the number of I2S output channels). */
-#define AVB_NUM_MEDIA_OUTPUTS AVB_DEMO_NUM_CHANNELS
+// AVB_DEMO_NUM_CHANNELS
+#define AVB_NUM_MEDIA_OUTPUTS 2
 /** Enable the 1722.1 Listener functionality */
 #define AVB_1722_1_LISTENER_ENABLED 1
 
@@ -88,6 +90,7 @@
 
 /** The number of components in the endpoint that will register and initialize media FIFOs
     (typically an audio interface component such as I2S). */
+// n.b.: 1 MEDIA_UNIT for input + 1 MEDIA_UNIT for output == 2
 #define AVB_NUM_MEDIA_UNITS 1
 
 /** The number of media clocks in the endpoint. Typically the number of clock domains, each with a
@@ -123,10 +126,14 @@
                                             AVB_1722_1_ADP_TALKER_CAPABILITIES_AUDIO_SOURCE| \
                                             AVB_1722_1_ADP_TALKER_CAPABILITIES_MEDIA_CLOCK_SOURCE)
 
+#endif
+
 #define AVB_1722_1_ADP_MODEL_ID 0x1234
 
+// add mute, volume index here
 enum aem_control_indices {
     DESCRIPTOR_INDEX_CONTROL_IDENTIFY = 0,
+    DESCRIPTOR_INDEX_CONTROL_MUTE_0 = 1
 };
 
 /** Enable 1722.1 Controller functionality on the entity. */
@@ -136,4 +143,4 @@ enum aem_control_indices {
 /** Enable SRP auto-start and auto-stop a stream when Listeners come and go */
 #define SRP_AUTO_TALKER_STREAM_CONTROL 1
 
-#endif
+#endif // __avb_conf_h__
